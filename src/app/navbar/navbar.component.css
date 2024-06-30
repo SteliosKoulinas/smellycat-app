@@ -1,48 +1,47 @@
 .header {
-    width: 1440px;
-    height: 48px;
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
+  width: 1440px;
+  height: 48px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logo {
-    width: 123px;
-    height: 30px;
-    margin-left: 120px;
-    margin-top: 9px;
-  }
-  
-  .menu {
-    height: 23px;
-    width: 547px;
-    margin-right: 117px;
-    margin-top: 12px;
-  }
-  
-  .menu ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    
-  }
-  
-  .menu li {
-    font-size: 14px;
-    letter-spacing: -0.17px;
-    line-height: 22.5px;
-    font-weight: bold;
-    color: #555555;
-  }
+  width: 123px;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 9px;
+}
 
-  @media only screen and (max-width: 768px) {
-    .header{
-      width: fit-content;
-    }
-    .menu {
-      width: 414px;
-    }
-   
+.menu {
+  height: 23px;
+  width: 547px;
+  margin-right: 117px;
+  margin-top: 12px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.menu li {
+  font-size: 14px;
+  letter-spacing: -0.17px;
+  line-height: 22.5px;
+  font-weight: bold;
+  color: #555555;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: fit-content;
+    min-width: 800px;
   }
+  .menu {
+    width: 414px;
+  }
+}
