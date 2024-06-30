@@ -1,0 +1,179 @@
+.contact_form {
+  margin-top: 88px;
+  margin-left: 120px;
+  width: 476px;
+  font-weight: 600;
+}
+
+.form {
+  width: 476px;
+  line-height: 17px;
+  letter-spacing: -0.17px;
+  text-align: left;
+}
+.form-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  align-items: center;
+}
+.form-name input {
+  width: 357px;
+  height: 40px;
+}
+.form-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+  align-items: center;
+}
+.form-email input {
+  width: 357px;
+  height: 40px;
+}
+.form-city {
+  width: auto;
+}
+.form-city div {
+  padding-bottom: 8px;
+}
+.form-city input {
+  width: 172px;
+  height: 40px;
+}
+.form-addr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 476px;
+}
+.form-postalcode {
+  width: auto;
+}
+.form-postalcode div {
+  padding-bottom: 8px;
+}
+.form-postalcode input {
+  width: 172px;
+  height: 40px;
+}
+.form-address {
+  width: 120px;
+  margin-bottom: 40px;
+}
+.form-address div {
+  padding-bottom: 8px;
+}
+.form-address input {
+  width: 288px;
+  height: 40px;
+}
+.form-message input {
+  width: 476px;
+  height: 168px;
+}
+.form-message {
+  margin-bottom: 26px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.message-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.message-info span {
+  padding-bottom: 8px;
+}
+.optional {
+    color:#9784FF;
+  }
+.contact_form h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.agree_terms {
+  margin-bottom: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 261px;
+  color: #555555;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+button {
+  background-color: #ef7878;
+  color: white;
+  width: 169px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.contact_form p {
+  font-size: 18px;
+  letter-spacing: -0.22px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+::placeholder {
+  padding-left: 16px;
+  color: #a0a9ba;
+  opacity: 1; /* Firefox */
+}
+
+.message-text::placeholder {
+  margin: 0;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #d8d8d8;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact_form {
+    margin-top: 28px;
+  }
+  .contact_form h1 {
+    margin-bottom: 20px;
+  }
+  .contact_form p {
+    margin-bottom: 20px;
+  }
+  .form-addr {   
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .form-name {   
+    margin-bottom: 24px;
+  }
+  .form-message {
+    margin-bottom: 13px;
+  }
+  .form-address {
+    margin-bottom: 20px;
+  }
+  .form-email {
+    margin-bottom: 21px;
+  }
+  .agree_terms {
+    margin-bottom: 23px;
+  }
+}

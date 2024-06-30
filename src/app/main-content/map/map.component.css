@@ -1,0 +1,68 @@
+.hq-info {
+  text-align: right;
+  width: 476px;
+}
+
+#wrapper {
+  width: 476px;
+  height: 416px;
+}
+
+#wrapper img {
+  border-radius: 8px;
+  border-color: #cccccc;
+}
+
+.headquarters {
+  margin-top: 178px;
+  margin-right: -77px;
+  text-align: right;
+  width: 676px;
+  height: 986px;
+}
+
+.hq-info {
+  margin-top: 45px;
+  text-align: right;
+  width: 476px;
+  line-height: 27px;
+  letter-spacing: -0.22px;
+  font-size: 18px;
+}
+
+.hq-info h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.addr_tel {
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.telephone {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .addr_tel {
+    flex-direction: row;
+  }
+
+  .headquarters {
+    margin-left: 120px;
+    height: auto;
+    margin-top: 68px;
+  }
+  
+}
