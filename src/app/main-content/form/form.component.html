@@ -4,30 +4,30 @@
     We are all cat persons, so if you got any question, drop it below and we
     will contact you back!
   </p>
-  <form>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="form">
       <div class="form-name">
         Your Full Name
-        <input type="text" placeholder="Type your name" required />
+        <input type="text" formControlName="fullName" placeholder="Type your name" required />
       </div>
       <div class="form-email">
         Your Email
-        <input type="text" placeholder="Type your email" required />
+        <input type="text" formControlName="email" placeholder="Type your email" required />
       </div>
       <hr />
       <div class="form-addr">
         <div class="form-city">
           <div>City</div>
-          <input type="text" placeholder="ex Thessaloniki" />
+          <input type="text" formControlName="city" placeholder="ex Thessaloniki" />
         </div>
         <div class="form-postalcode">
           <div>Postal Code</div>
-          <input type="text" placeholder="ex 54658" />
+          <input type="text" formControlName="postalCode" placeholder="ex 54658" />
         </div>
       </div>
       <div class="form-address">
         <div>Address</div>
-        <input type="text" placeholder="ex Thessaloniki" />
+        <input type="text" formControlName="address" placeholder="ex Thessaloniki" />
       </div>
       <div class="form-message">
         <div class="message-info">
@@ -38,11 +38,12 @@
           class="message-text"
           type="textfield"
           optional
+          formControlName="message"
           placeholder="Type your message"
         />
       </div>
       <div class="agree_terms">
-        <input type="checkbox" required />
+        <input type="checkbox" formControlName="agree" required />
         I agree with the Terms & Conditions
       </div>
 

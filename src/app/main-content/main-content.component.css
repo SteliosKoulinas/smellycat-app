@@ -1,14 +1,21 @@
 .main-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 1227px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 1227px;
+  margin: auto;
+  width: fit-content;
+}
 
-  @media only screen and (max-width: 768px) {
-    .main-content {
-      flex-direction: column;
-      width: auto;
-      height: auto;
-    }
+@media only screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    width: auto;
+    height: auto;
   }
+}
+@media only screen and (min-height: 1367px) {
+  .main-content {
+    min-height: 1310px;
+  }
+} 
