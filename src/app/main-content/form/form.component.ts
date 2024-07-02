@@ -39,7 +39,7 @@ export class FormComponent {
         address: this.contactForm.get('address')?.value,
         message: this.contactForm.get('message')?.value,
       };
-
+      console.log(templateParams);
       emailjs
         .send(
           'service_x40z81y',
